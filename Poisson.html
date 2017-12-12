@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Abstract - Predicting Soccer Results</title>
+        <link rel="apple-touch-icon" sizes="57x57" href="AyushUdyavar_files/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="AyushUdyavar_files/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="AyushUdyavar_files/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="AyushUdyavar_files/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="AyushUdyavar_files/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="AyushUdyavar_files/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="AyushUdyavar_files/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="AyushUdyavar_files/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="AyushUdyavar_files/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="AyushUdyavar_files/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="AyushUdyavar_files/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="AyushUdyavar_files/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="AyushUdyavar_files/favicon-16x16.png">
+		<link rel="manifest" href="AyushUdyavar_files/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="AyushUdyavar_files/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+        <link rel="manifest" href="AyushUdyavar_files/manifest.json">
+		<link href="AyushUdyavar_files/fontello/config.json">
+        <link rel="mask-icon" href="AyushUdyavar_files/safari-pinned-tab.svg" color="#101517">
+        <meta name="apple-mobile-web-app-title" content="Ayush Udyavar">
+        <meta name="application-name" content="Ayush Udyavar">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link href="AyushUdyavar_files/main.css" media="screen, projection" rel="stylesheet" type="text/css" charset="UTF-8">
+        <script type="application/ld+json">
+		{"@context":"http://schema.org","@type":"Person","name":"Ayush Udyavar","url":"tbd","logo":"AyushUdyavar_files/logo 3.png","sameAs":["https://twitter.com/ayushu99","https://www.facebook.com/ayushu99","https://vimeo.com/ayushu99","https://www.instagram.com/ayushu99"],"contactPoint":[{"@type":"ContactPoint","contactType":"Person","telephone":"+1(765)6070502","availableLanguage":"English","email":"ayush.udyavar@gmail.com"}]}
+		</script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="AyushUdyavar_files/hideheader.js"></script>
+        <meta name="description" content="We need a description here." data-react-helmet="true">
+        <meta name="description" content="An engineering student with an aptitude for technology, researching, designing and creating solutions." data-react-helmet="true">
+        <meta property="og:site_name" content="ayushudyavar.com" data-react-helmet="true">
+        <meta property="og:locale" content="en_US" data-react-helmet="true">
+        <meta property="og:image" content="1200x630 fb share png" data-react-helmet="true">
+    </head>
+<body class="case-study case--poisson">
+        <div id="content">
+            <div class="page__wrapper">
+                <header class="navbar--fixed navbar--in">
+					<div>
+                            <a class="navbar__brand" href="index.html">
+								<span class="brand__logo">
+                                </span>
+                            </a>
+					</div>
+                </header>
+                <div>
+                    <div>
+                        <div style="opacity: 1; transition: opacity 0.25s ease-in;">
+                            <div class="no-cover">
+                                <section class="section section--small section--bottom-pad">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
+												<header class="section__header section__header--no-padd">
+													<h2 class="case__name text--white text--uppercase">Abstract</h2>
+													<h1 class="title title--gama text--white">USING A STATISTICAL<br>MODEL TO PREDICT<br>SOCCER MATCHES</h1>
+													<div class="sep sep--secondary sep--center"></div>
+												</header>
+												<div style="margin-top: 5%; padding-top: 5%"><img src="AyushUdyavar_files/Soccer_2.png" alt="Soccer" width="820" class="img--responsive"></div>
+												<p class="paragraph paragraph--alpha text--white text--center">Investigating statistical models by attempting to predict soccer results using Poisson distribution and Maximum likelihood-based parameter estimation .</p>
+											</div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="section section--small bg--white">
+                                    <div class="container">
+                                        <div class="row marg--md-top marg--lg">
+                                            <div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+                                                <h3 class="title title--alpha text--uppercase text--center">Introduction</h3>
+                                                <div class="sep sep--dark sep--center"></div>
+                                                <p class="paragraph paragraph--beta ">Most sports are often considered immensely unpredictable, and soccer is no exception. Yet, it is common to see predictions of matches, whether it’s from an expert or between a few fans. Experts tend to use their vast knowledge and intuition of the sport to generate their predictions. Yet, the various data and figures available about a team or league beg the question “Can statistics and probabilities be used to predict the outcome of individual matches or entire seasons?” Most soccer fans, myself included, have a distinct appreciation for the ‘randomness’ within the sport and this investigation seeks to find a model that predicts results of soccer matches. This exploration investigates predicting soccer results using a potential mathematical model. Using the data for Chelsea FC from the 2013-14 Barclays Premier League (BPL) season, the predicted results are then compared to the actual 2014-15 Barclays Premier League season.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row marg--lg">
+                                            <div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+                                                <h3 class="title title--alpha text--uppercase text--center">Rationale</h3>
+                                                <div class="sep sep--dark sep--center"></div>
+                                                <p class="paragraph paragraph--beta"> This exploration is being done to find an accurate model for predicting soccer match results. This model would be very useful to soccer experts or soccer fans like myself. The analysis will take into account a number of factors, including each team’s offensive and defensive ability. One main model being used during the simulations is called ‘Maximum likelihood-based parameter estimation’. Undoubtedly the predictions made will not be completely accurate, however it may provide a good understanding of what is most likely to occur. Every possible factor affecting a soccer game cannot be taken into account, which serves as the first limitation with the model being used for this exploration</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+                                                <h3 class="title title--alpha text--uppercase text--center">Method</h3>
+                                                <div class="sep sep--dark sep--center"></div>
+                                                <p class="paragraph paragraph--beta">This investigation used Poisson distribution to find the expected results for each individual match. Poisson distribution is based on a sole parameter 𝜆 where:</p>
+													<ul class="paragraph paragraph--beta">
+														<li>𝜆 is the average number of events in an interval, which is the event rate (or rate parameter)</li><br>
+														<li>𝑥 is the number of ‘events’ that take place during the time period. 𝑥 must be a positive integer</li>
+													</ul>
+												<p class="paragraph paragraph--beta" style="margin-bottom: 0">The probability that a Poisson random variable equals 𝑥 is:</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-8 col-sm-6 col-sm-push-3 col-md-4 col-md-push-4 col-xs-push-2">
+                                                <img class="img--responsive" style="max-width: 70%; margin-left: auto; margin-right: auto" src="AyushUdyavar_files/Poisson_Formula.png" alt="Poisson Formula">
+                                            </div>
+                                        </div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+												<p class="paragraph paragraph--beta">As it is used to calculate the probability of how many times the event will occur, and since the total probability of the number of events to occur is 1:</p>
+											</div>
+										</div>
+										<div class="row">
+                                            <div class="col-xs-8 col-sm-6 col-sm-push-3 col-md-4 col-md-push-4 col-xs-push-2">
+                                                <img class="img--responsive" style="max-width: 70%; margin-left: auto; margin-right: auto" src="AyushUdyavar_files/Poisson_Sum.png" alt="Poisson Sum">
+                                            </div>
+                                        </div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+												<p class="paragraph paragraph--beta">The count can then be modeled using Maximum likelihood-based parameter estimation. It uses additional variables which describe the number of number of events over the time period where:</p>
+													<ul class="paragraph paragraph--beta">
+														<li><b>𝝁</b> = 𝜃<b>𝒚</b> in which:</li><br>
+															<ul>
+																<li><b>𝒚</b> is the input vector which consists of the independent predictor (parameter) variables</li><br>
+																<li>𝜃 is based on the fit which is estimated by maximum likelihood</li>
+															</ul>
+													</ul>
+												<p class="paragraph paragraph--beta">The mean of the predicted Poisson distribution is written as:</p>
+											</div>
+										</div>
+										<div class="row">
+                                            <div class="col-xs-8 col-sm-6 col-sm-push-3 col-md-4 col-md-push-4 col-xs-push-2">
+                                                <img class="img--responsive" style="max-width: 70%; margin-left: auto; margin-right: auto" src="AyushUdyavar_files/MLBPE.png" alt="Maximum Likelihood Based Parameter Estimation">
+                                            </div>
+                                        </div>
+										<div class="row marg--lg">
+											<div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+												<p class="paragraph paragraph--beta">This model is then applied to the data which is Chelsea FC’s match results from the 2013-14 Barclays Premier League season.</p>
+											</div>
+										</div>
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+                                                <h3 class="title title--alpha text--uppercase text--center">Results</h3>
+                                                <div class="sep sep--dark sep--center"></div>
+                                                <p class="paragraph paragraph--beta">Using Poisson distribution, the probability of each outcome for the number of goals that Chelsea FC scores or concedes against every other team is calculated, from 0 goals to 5 goals. This was then displayed on a table which shows the probabilities for a single game:</p>
+                                            </div>
+                                        </div>
+										<div class="row">
+                                            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
+                                                <img class="img--responsive" src="AyushUdyavar_files/ChelseaVsArsenal.png" alt="Chelsea vs Arsenal Probabilities Table">
+                                            </div>
+                                        </div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+												<p class="paragraph paragraph--beta">The highlighted box showed the most probable outcome for that game. This was repeated for each game that Chelsea FC plays in a season. The results from these tables was then used to find the number of points Chelsea FC are predicted to get along with predicted goals scored and goals conceded. This was then compared to the actual 2014-15 Barclays Premier League season for Chelsea FC.<br><br>Using the data from the tables, the predicated table for Chelsea FC was made:</p>
+											</div>
+										</div>
+										<div class="row">
+                                            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
+                                                <img class="img--responsive" src="AyushUdyavar_files/ChelseaPredicted.png" alt="Chelsea Predicated Results">
+                                            </div>
+                                        </div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+												<p class="paragraph paragraph--beta">Which can be compared to the actual 2014-15 Barclays Premier League season:</p>
+											</div>
+										</div>
+										<div class="row">
+                                            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
+                                                <img class="img--responsive" src="AyushUdyavar_files/ChelseaActual.png" alt="Chelsea Actual Results">
+                                            </div>
+                                        </div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+												<p class="paragraph paragraph--beta">Finally, a table comparing the above two tables was created:</p>
+											</div>
+										</div>
+										<div class="row marg--lg">
+                                            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
+                                                <img class="img--responsive" src="AyushUdyavar_files/Comparison.png" alt="Chelsea Actual and Predicted Results Comparison">
+                                            </div>
+                                        </div>
+										<div class="marg--md-btm bg--grey">
+                                            <div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3" >
+                                                <h3 class="title title--alpha text--uppercase text--center marg--md-top">Conclusion</h3>
+                                                <div class="sep sep--dark sep--center"></div>
+                                                <p class="paragraph paragraph--beta">As seen in the data, the number of points Chelsea FC are predicted to attain and the number of points they actually obtained were the same (87 points). This shows that the model used was accurate for its primary task – to predict the outcome of Chelsea’s overall 2014-15 Barclays Premier League season. The number of Home Losses (0) and Away Losses (3) were also the same, while most other aspects were close. This shows that the probability model used in this exploration has been successful, to a certain extent, in predicting the results for Chelsea FC. The reason for the relative accuracy of the model could be attributed to the usage of the parameters used in Maximum likelihood-based parameter estimation, however, using more parameters could have provided more accurate results.<br><br>This model only uses 2 parameters, however, there are far more factors which affect a single soccer match. Most of those cannot be easily quantified. Hence, this cannot be included in the model, which adds to the inaccuracies within this model, Also, this exploration only used one set of data as input for creating the model. This single data set was used to calculate both parameters used which were in turn used to predict the 2014-15 Barclays Premier League season results for Chelsea FC. The random errors can be reduced by including more sets of data (ie. More Barclays Premier League seasons)<br><br>Despite the inaccuracies. this model could potentially be used to predict the outcomes of soccer matches or those of other sports as well. Additional parameters and increased data sets would help the accuracy and minimize error. To further investigate, more seasons can be taken into account to reduce random error and increase the precision of the model.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mockups bg--grey">
+                                        <div class="mockups__container container">
+                                            <div class="row">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="section--centered footer">
+                    <div class="container">
+                        <ul class="footer__nav">
+                            <li>
+                                <a class="footer__link hover--flip" data-text="About Me" href="AboutMe.html">
+                                    <span>About Me</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer__link hover--flip" data-text="Investigating Laminar Flow" href="Laminar Flow.html">
+                                    <span>Investigating Laminar Flow</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer__link hover--flip" data-text="Predicting Soccer Results" href="Poisson.html">
+                                    <span>Predicting Soccer Results</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer__link hover--flip" data-text="Masoom Education" href="https://ayushu.github.io/Masoom-Education/">
+                                    <span>Masoom Education</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer__link hover--flip" data-text="Redesigning The Concorde" href="Concorde.html">
+                                    <span>Redesigning The Concorde</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="footer__offices contact-info">
+                            <div class="contact-info__row">
+                                <div class="contact-info__col centered">
+                                    <a class="contact-info__title" href="index.html">homepage</a>
+                                </div>
+                            </div>
+                            <div class="contact-info__row">
+                                <div class="contact-info__col centered">
+                                    <div class="social">
+                                        <div class="social__body">
+                                            <ul class="list--inline social__list">
+                                                <li class="list--inline__item ">
+                                                    <a href="https://github.com/ayushu" target="_blank" class="social__link icon icon-github" rel="noopener noreferrer">
+                                                        <span class="sr-only">Github</span>
+                                                    </a>
+                                                </li>
+                                                <li class="list--inline__item ">
+                                                    <a href="https://www.twitter.com/ayushu99" target="_blank" class="social__link icon icon-twitter" rel="noopener noreferrer">
+                                                        <span class="sr-only">Twitter</span>
+                                                    </a>
+                                                </li>
+                                                <li class="list--inline__mobile-break"></li>
+                                                <li class="list--inline__item ">
+                                                    <a href="https://www.instagram.com/ayushu_99" target="_blank" class="social__link icon icon-instagram" rel="noopener noreferrer">
+                                                        <span class="sr-only">Instagram</span>
+                                                    </a>
+                                                </li>
+                                                <li class="list--inline__item ">
+                                                    <a href="https://www.vimeo.com/ayushu" target="_blank" class="social__link icon icon-vimeo" rel="noopener noreferrer">
+                                                        <span class="sr-only">Vimeo</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="social__footer">
+                                            <a href="mailto:ayush.udyavar@gmail.com" class="contact-info__contact-line text--link-red clearfix">ayush.udyavar@gmail.com</a>
+											<p class="contact-info__contact-line">+1-765-607-0502</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__mapkit"></div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+	</body>
+</html>
