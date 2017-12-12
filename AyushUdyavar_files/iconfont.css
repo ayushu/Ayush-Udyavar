@@ -1,0 +1,157 @@
+@font-face {
+	font-family: "iconfont";
+	src: url("/STRV_files/dist/iconfont.eot?#iefix") format("embedded-opentype"),
+url("/STRV_files/dist/iconfont.woff") format("woff"),
+url("/STRV_files/dist/iconfont.ttf") format("truetype"),
+url("/STRV_files/dist/iconfont.svg#iconfont") format("svg");
+}
+
+.ico {
+	line-height: 1;
+}
+
+.ico:before {
+	font-family: iconfont !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.ico--arrow:before {
+	content: "\f101";
+}
+.ico--behance:before {
+	content: "\f102";
+}
+.ico--clients:before {
+	content: "\f103";
+}
+.ico--clubs:before {
+	content: "\f104";
+}
+.ico--freedom:before {
+	content: "\f105";
+}
+.ico--impact:before {
+	content: "\f106";
+}
+.ico--learning:before {
+	content: "\f107";
+}
+.ico--lessons:before {
+	content: "\f108";
+}
+.ico--meetups:before {
+	content: "\f109";
+}
+.ico--offices:before {
+	content: "\f10a";
+}
+.ico--people:before {
+	content: "\f10b";
+}
+.ico--projects:before {
+	content: "\f10c";
+}
+.ico--team:before {
+	content: "\f10d";
+}
+.ico--technologies:before {
+	content: "\f10e";
+}
+.ico--chat:before {
+	content: "\f10f";
+}
+.ico--comment:before {
+	content: "\f110";
+}
+.ico--check-mark:before {
+	content: "\f111";
+}
+.ico--cover-arrow:before {
+	content: "\f112";
+}
+.ico--cross-icon:before {
+	content: "\f113";
+}
+.ico--scale-icon:before {
+	content: "\f114";
+}
+.ico--shield-icon:before {
+	content: "\f115";
+}
+.ico--dribbble:before {
+	content: "\f116";
+}
+.ico--dropdown:before {
+	content: "\f117";
+}
+.ico--facebook:before {
+	content: "\f118";
+}
+.ico--heart:before {
+	content: "\f119";
+}
+.ico--classDojoPhone:before {
+	content: "\f11a";
+}
+.ico--homeArrow:before {
+	content: "\f11b";
+}
+.ico--homeCaviar:before {
+	content: "\f11c";
+}
+.ico--homeHallmark:before {
+	content: "\f11d";
+}
+.ico--homeLufthansa:before {
+	content: "\f11e";
+}
+.ico--homeMicrosoft:before {
+	content: "\f11f";
+}
+.ico--homeSomething:before {
+	content: "\f120";
+}
+.ico--homeTinder:before {
+	content: "\f121";
+}
+.ico--tablet:before {
+	content: "\f122";
+}
+.ico--instagram:before {
+	content: "\f123";
+}
+.ico--linkedin:before {
+	content: "\f124";
+}
+.ico--play:before {
+	content: "\f125";
+}
+.ico--plus:before {
+	content: "\f126";
+}
+.ico--pointer:before {
+	content: "\f127";
+}
+.ico--search:before {
+	content: "\f128";
+}
+.ico--spoon:before {
+	content: "\f129";
+}
+.ico--tabArrow:before {
+	content: "\f12a";
+}
+.ico--trophy:before {
+	content: "\f12b";
+}
+.ico--tweet:before {
+	content: "\f12c";
+}
+.ico--twitter:before {
+	content: "\f12d";
+}
+.ico--vimeo:before {
+	content: "\f12e";
+}
